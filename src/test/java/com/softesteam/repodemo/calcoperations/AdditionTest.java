@@ -1,7 +1,6 @@
 package com.softesteam.repodemo.calcoperations;
 
 import org.junit.jupiter.api.*;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -12,7 +11,7 @@ class AdditionTest {
     private static Addition addition;
 
     @BeforeAll
-    static void setUpBeforeClass() throws Exception {
+    static void setUpBeforeClass(){
         addition = new Addition();
     }
 
@@ -24,7 +23,7 @@ class AdditionTest {
         int b = 20;
         int expected = 35;
 
-        int actual = addition.add(a,b);
+        int actual = addition.add(a, b);
 
         assertEquals(expected, actual, "Addition should return 30");
     }

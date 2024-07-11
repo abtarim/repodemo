@@ -4,7 +4,7 @@ public class Subtraction {
     public Subtraction() {
     }
 
-    public int subtraction(int a, int b) {
+    public double subtraction(double a, double b) {
         return a - b;
     }
 }

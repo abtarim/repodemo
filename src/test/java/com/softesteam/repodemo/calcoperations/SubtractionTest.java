@@ -19,12 +19,12 @@ public class SubtractionTest {
     @DisplayName("Subtraction")
     @Order(1)
     void testSubtraction() {
-        int a = 20;
-        int b = 10;
-        int expected = 10;
+        double a = -20;
+        double b = 10;
+        double expected = -30;
 
-        int actual = subtraction.subtraction(a, b);
+        double actual = subtraction.subtraction(a, b);
 
-        assertEquals(expected, actual, "Subtraction should return 30");
+        assertEquals(expected, actual, "Subtraction should return -30");
     }
 }

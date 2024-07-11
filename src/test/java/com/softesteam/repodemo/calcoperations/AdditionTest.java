@@ -21,7 +21,7 @@ class AdditionTest {
     void testAddition() {
         int a = 10;
         int b = 20;
-        int expected = 35;
+        int expected = 30;
 
         int actual = addition.add(a, b);
 

@@ -18,11 +18,11 @@ public class DivisionTest {
     @DisplayName("Division")
     @Order(1)
     void testDivision() {
-        int a = 20;
-        int b = 10;
-        int expected = 2;
+        double a = 20;
+        double b = 10;
+        double expected = 2;
 
-        int actual = division.division(a, b);
+        double actual = division.division(a, b);
 
         assertEquals(expected, actual, "Division should return 200");
     }

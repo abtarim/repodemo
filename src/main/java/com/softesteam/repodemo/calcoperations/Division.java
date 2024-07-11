@@ -4,7 +4,10 @@ public class Division {
     public Division() {
     }
 
-    public int division(int a, int b) {
-        return a / b;
+    public double division(double a, double b) {
+        if (b==0)
+            throw new ArithmeticException("Division by zero");
+        else
+            return a / b;
     }
 }

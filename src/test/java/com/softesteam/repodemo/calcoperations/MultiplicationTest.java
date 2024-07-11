@@ -18,11 +18,11 @@ public class MultiplicationTest {
     @DisplayName("Multiplication")
     @Order(1)
     void testMultiplication() {
-        int a = 20;
-        int b = 10;
-        int expected = 200;
+        double a = 20;
+        double b = 10;
+        double expected = 200;
 
-        int actual = multiplication.multiplication(a, b);
+        double actual = multiplication.multiplication(a, b);
 
         assertEquals(expected, actual, "Multiplication should return 200");
     }

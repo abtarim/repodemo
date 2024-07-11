@@ -19,11 +19,11 @@ class AdditionTest {
     @DisplayName("Addition")
     @Order(1)
     void testAddition() {
-        int a = 10;
-        int b = 20;
-        int expected = 30;
+        double a = 10;
+        double b = 20;
+        double expected = 30;
 
-        int actual = addition.add(a, b);
+        double actual = addition.add(a, b);
 
         assertEquals(expected, actual, "Addition should return 30");
     }
